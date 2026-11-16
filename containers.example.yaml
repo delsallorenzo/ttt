@@ -1,0 +1,7 @@
+# Copy to containers.yaml (git-ignored) or just use the app: enter on an item → move.
+# Rule types: domain, path, app, title_contains (substring, case-insensitive), profile (Dia profile, exact).
+client-a:
+  - {type: domain, value: client-a.com}
+  - {type: path, value: /Work/client-a/}
+  - {type: title_contains, value: client-a}
+  - {type: profile, value: Client A}
